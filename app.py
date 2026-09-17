@@ -1245,8 +1245,8 @@ elif page == "Overall Results":
     )
     st.plotly_chart(fig_trend, use_container_width=True)
 
-    st.markdown('<div class="section-title">Best Method by Condition</div>', unsafe_allow_html=True)
-    st.write(f"Best-performing imputation method per mechanism × level, ranked by {trend_metric}.")
+    st.markdown('<div class="section-title">Method Comparison by Condition</div>', unsafe_allow_html=True)
+    st.write(f"Imputation method comparison across mechanisms and missingness levels using {trend_metric}.")
 
     rank_rows = []
     for mech in ["mcar", "mar", "mnar"]:
