@@ -1,0 +1,10 @@
+ucimlrepo
+numpy
+pandas
+scipy
+scikit-learn
+miceforest
+tensorflow
+matplotlib
+seaborn
+jupyter
