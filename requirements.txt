@@ -1,10 +1,3 @@
-ucimlrepo
-numpy
+streamlit
 pandas
-scipy
-scikit-learn
-miceforest
-tensorflow
-matplotlib
-seaborn
-jupyter
+plotly
